@@ -16,7 +16,7 @@ function Library() {
   return (
     <div className="App">
       <h1>Library</h1>
-      <LibraryContext.Provider value={{ books, borrowBook, returnBook }}>
+      <LibraryContext.Provider value={{ books, borrowBook, returnBook }}>{/* here is where you provide all the props*/}
         <Books />
       </LibraryContext.Provider>
     </div>
